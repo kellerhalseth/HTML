@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 50pt;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+p {
+  margin: auto;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 100s;
+}
+@keyframes example {
+  0% {background-color:red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  100% {background-color: green;}
+}
